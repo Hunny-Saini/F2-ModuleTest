@@ -1,0 +1,117 @@
+*{
+    font-family: 'Inter', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: #111111;
+    color: white;
+    font-size: 18px;
+}
+
+.container{
+    margin: 10px 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+}
+
+.head-container h1{
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.form{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    gap: 24px;
+    margin-bottom: 30px;
+}
+
+.form input{
+    background-color: black;
+    outline: none;
+    border: 1px solid white;
+    height: 36px;
+    padding-left: 10px;
+    width: 350px;
+    color: white;
+    padding-left: 12px;
+    font-size: 14px;
+} 
+
+.add-btn{
+    min-width: 400px;
+    background-color: #fff;
+    color: black;
+    min-height: 34px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 40px;
+}
+
+.search{
+    width: 100%;
+    min-height: 34px;
+    outline: none;
+    border: 1px solid white;
+    margin-bottom: 40px;
+}
+
+.search-container input{
+    padding-left: 12px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.table-conatiner table th{
+    padding: 10px 16px;
+}
+
+.table-conatiner th {
+    border-left: 1px solid white;
+    border-bottom: 1px solid white;
+    border-collapse: collapse;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    padding: 0px 16px;
+}
+
+.table-conatiner  td{
+    border-right: 1px solid white; 
+    border-collapse: collapse;
+    padding: 0px 16px;
+}
+
+
+.table-conatiner{
+    width: 100%;
+}
+
+.table{
+    width: 100%;
+    min-height: 200px;
+    border: 1px solid white;
+    border-spacing: 0px;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.icons{
+    cursor: pointer;
+}
+
+.icons a:nth-child(1){
+    padding-right: 10px;
+}
